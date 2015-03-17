@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/"
            review="android-review.googlesource.com" />
 
-  <remote  name="f4krom"
+  <remote  name="f4k"
            fetch="https://github.com/"
 
   <remote  name="cm"
@@ -24,8 +24,8 @@
            sync-j="4" />
 
 
-  <project path="android" name="F4KROM/android" remote="f4krom" revision="lp" />
-  <project path="build" name="F4KROM/android_build" groups="pdk,tradefed" remote="f4krom" revision="lp" >
+  <project path="android" name="F4KROM/android" remote="f4k" revision="lp" />
+  <project path="build" name="F4KROM/android_build" groups="pdk,tradefed" remote="f4k" revision="lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -270,8 +270,8 @@
   <!-- End External Libraries -->
 
   <!-- Start Frameworks -->
-  <project path="frameworks/av" name="F4KROM/android_frameworks_av" remote="f4krom" revision="lp" groups="pdk" />
-  <project path="frameworks/base" name="F4KROM/android_frameworks_base" remote="f4krom" revision="lp" groups="pdk-cw-fs" />
+  <project path="frameworks/av" name="F4KROM/android_frameworks_av" remote="f4k" revision="lp" groups="pdk" />
+  <project path="frameworks/base" name="F4KROM/android_frameworks_base" remote="f4k" revision="lp" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -280,7 +280,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="F4KROM/android_frameworks_native" remote="f4krom" revision="lp" groups="pdk" />
+  <project path="frameworks/native" name="F4KROM/android_frameworks_native" remote="f4k" revision="lp" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -354,7 +354,7 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="android_packages_apps_QuickSearchBox" remote="omni" revision="android-5.1" />
-  <project path="packages/apps/Settings" name="F4KROM/android_packages_apps_Settings" remote="f4krom" revision="lp" />
+  <project path="packages/apps/Settings" name="F4KROM/android_packages_apps_Settings" remote="f4k" revision="lp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -480,6 +480,6 @@
   <!-- End Tools -->
 
   <!-- Start non-source repos -->
-  <project path="vendor/f4krom" name="F4KROM/android_vendor_f4krom" remote="f4krom" revision="lp" />
+  <project path="vendor/f4krom" name="F4KROM/android_vendor_f4krom" remote="f4k" revision="lp" />
   <!-- End non-source repos -->
 </manifest>
