@@ -318,7 +318,7 @@
   <project path="ndk" name="platform/ndk" />
 
   <!-- Start Apps -->
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="omni" revision="android-5.1" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="omni" revision="android-5.1" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="omni" revision="android-5.1" />
@@ -343,7 +343,7 @@
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="omni" revision="android-5.1" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omni" revision="android-5.1" />
-  <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="cm" revision="cm-12.0" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="omni" revision="android-5.1" />
   <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="omni" revision="android-5.1" />
   <project path="packages/apps/OmniTorch" name="android_packages_apps_OmniTorch" remote="omni" revision="android-5.1" />
